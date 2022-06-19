@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-l7__jry50z^69q3o^7$#ye#z19*_v3hwupxm%tc6xj8!yk%bvr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['spiceytea-app.herokuapp.com','127.0.0.1']
 
 
 # Application definition
