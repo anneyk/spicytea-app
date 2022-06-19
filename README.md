@@ -3,10 +3,10 @@
 >[Annet Khavere](https://github.com/anneyk)  
   
 # Description  
-This is a neighborhood app where a user must signup first, be able to join a hood owned by the hood admin, and once you 
-join a hood, one can see businesses and posts in only that wood they belong to.  
+This is a neighborhood app where after signing up, a user is able to join a hood owned by the hood admin, and once you 
+join a hood, one can see businesses and posts in that particular hood.
 ##  Live Link  
-
+https://spiceytea-app.herokuapp.com/account/login/?next=/
 
 ## User Story  
   
@@ -25,7 +25,7 @@ https://github.com/anneyk/Spiceytea-app.git
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
-cd Spicytea-app/
+cd spicytea-app/
 ```
 ##### Install and activate Virtual  
  ```bash 
