@@ -51,6 +51,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -134,7 +135,7 @@ STATIC_URL = '/static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
@@ -144,3 +145,4 @@ MEDIA_URL = '/media/'
 LOGIN_REDIRECT_URL = 'index'
 
 LOGOUT_REDIRECT_URL = 'index'
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
