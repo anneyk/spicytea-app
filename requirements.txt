@@ -3,7 +3,7 @@ asgiref==3.4.1
 async-generator==1.10
 certifi==2022.6.15
 contextvars==2.4
-dataclasses==0.8
+dataclasses
 Django==3.2.13
 django-crispy-forms==1.13.0
 dnspython==2.2.1
